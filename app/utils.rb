@@ -28,3 +28,10 @@ def UI_USER_INTERFACE_IDIOM
   end
 
 end
+
+# #define UIInterfaceOrientationIsLandscape(orientation) \
+#    ((orientation) == UIInterfaceOrientationLandscapeLeft || \
+#    (orientation) == UIInterfaceOrientationLandscapeRight)
+def UIInterfaceOrientationIsLandscape(orientation)
+  (orientation == UIInterfaceOrientationLandscapeLeft) || (orientation == UIInterfaceOrientationLandscapeRight)
+end
